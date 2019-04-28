@@ -1,0 +1,342 @@
+2019-04-13 17:32:09.079 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:32:09.792 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:32:09.882 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$37954bf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:32:09.897 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$53af4ef3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:32:10.213 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:32:10.240 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:32:10.241 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:32:10.248 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:32:10.249 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:32:10.249 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:32:10.249 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:32:11.324 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:32:11.492 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:32:11.492 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2402 ms
+2019-04-13 17:32:12.236 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:32:12.236 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:32:12.241 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:32:12.241 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:32:12.424 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13 17:32:13.209 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2019-04-13 17:32:13.244 [main] INFO  com.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2019-04-13 17:32:13.624 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2019-04-13 17:32:13.624 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2019-04-13 17:32:13.738 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2019-04-13 17:32:13.738 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2019-04-13 17:32:14.003 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-13 17:32:14.206 [main] INFO  com.netflix.discovery.DiscoveryClient -Disable delta property : false
+2019-04-13 17:32:14.206 [main] INFO  com.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2019-04-13 17:32:14.206 [main] INFO  com.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2019-04-13 17:32:14.206 [main] INFO  com.netflix.discovery.DiscoveryClient -Application is null : false
+2019-04-13 17:32:14.207 [main] INFO  com.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2019-04-13 17:32:14.207 [main] INFO  com.netflix.discovery.DiscoveryClient -Application version is -1: true
+2019-04-13 17:32:14.207 [main] INFO  com.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2019-04-13 17:32:14.446 [main] INFO  com.netflix.discovery.DiscoveryClient -The response status is 200
+2019-04-13 17:32:14.449 [main] INFO  com.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+2019-04-13 17:32:14.453 [main] INFO  com.netflix.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-13 17:32:14.456 [main] INFO  com.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1555147934455 with initial instances count: 1
+2019-04-13 17:32:14.458 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry -Registering application EUREKA-SERVER-8001 with eureka with status UP
+2019-04-13 17:32:14.458 [main] INFO  com.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1555147934458, current=UP, previous=STARTING]
+2019-04-13 17:32:14.461 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001: registering service...
+2019-04-13 17:32:14.688 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001 - registration status: 204
+2019-04-13 17:32:14.747 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8001 (http) with context path ''
+2019-04-13 17:32:14.748 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8001
+2019-04-13 17:32:14.751 [main] INFO  c.x.s.s.ServiceProducer8001Application -Started ServiceProducer8001Application in 8.613 seconds (JVM running for 9.869)
+2019-04-13 17:32:25.215 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-13 17:32:25.215 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-04-13 17:32:25.223 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 7 ms
+2019-04-13 17:32:40.369 [http-nio-8001-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2019-04-13 17:32:40.383 [http-nio-8001-exec-4] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] -Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.lang.NullPointerException
+### The error may exist in file [D:\yuanlai\yuanlai-dao\target\classes\mapper\UserMapper.xml]
+### The error may involve com.xuming.springcloud.yuanlaidao.mapper.UserMapper.findUserList
+### The error occurred while executing a query
+### Cause: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.alibaba.druid.util.JdbcUtils.getDriverClassName(JdbcUtils.java:354)
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:577)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:915)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:911)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:98)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:85)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy77.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy78.findUserList(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy80.findUserList(Unknown Source)
+	at com.xuming.springcloud.serviceproducer8001.service.impl.UserServiceImpl.findUserList(UserServiceImpl.java:23)
+	at com.xuming.springcloud.serviceproducer8001.controller.EurekaClientController.queryServiceInfo(EurekaClientController.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-04-13 17:36:26.347 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:36:27.077 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:36:27.191 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6395b93f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:36:27.208 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7fafbc3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:36:27.517 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:36:27.539 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:36:27.539 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:36:27.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:36:27.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:36:27.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:36:27.547 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:36:28.698 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:36:28.888 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:36:28.888 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2526 ms
+2019-04-13 17:36:29.633 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:36:29.634 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:36:29.643 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:36:29.644 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:36:29.918 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13 17:36:30.617 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2019-04-13 17:36:30.660 [main] INFO  com.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2019-04-13 17:36:31.054 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2019-04-13 17:36:31.054 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2019-04-13 17:36:31.172 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2019-04-13 17:36:31.172 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2019-04-13 17:36:31.406 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Disable delta property : false
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Application is null : false
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Application version is -1: true
+2019-04-13 17:36:31.602 [main] INFO  com.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2019-04-13 17:36:31.848 [main] INFO  com.netflix.discovery.DiscoveryClient -The response status is 200
+2019-04-13 17:36:31.851 [main] INFO  com.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+2019-04-13 17:36:31.854 [main] INFO  com.netflix.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-13 17:36:31.858 [main] INFO  com.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1555148191857 with initial instances count: 1
+2019-04-13 17:36:31.859 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry -Registering application EUREKA-SERVER-8001 with eureka with status UP
+2019-04-13 17:36:31.860 [main] INFO  com.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1555148191860, current=UP, previous=STARTING]
+2019-04-13 17:36:31.861 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001: registering service...
+2019-04-13 17:36:31.946 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001 - registration status: 204
+2019-04-13 17:36:31.979 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8001 (http) with context path ''
+2019-04-13 17:36:31.980 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8001
+2019-04-13 17:36:31.982 [main] INFO  c.x.s.s.ServiceProducer8001Application -Started ServiceProducer8001Application in 8.061 seconds (JVM running for 9.414)
+2019-04-13 17:37:02.933 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-13 17:37:02.934 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2019-04-13 17:37:02.941 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet -Completed initialization in 7 ms
+2019-04-13 17:37:03.039 [http-nio-8001-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2019-04-13 17:41:02.888 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:41:03.636 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:41:03.716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d35038] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:41:03.731 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$1eed5335] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:41:04.008 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:41:04.036 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:41:04.037 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:41:04.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:41:04.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:41:04.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:41:04.045 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:41:05.126 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:41:05.296 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:41:05.296 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2395 ms
+2019-04-13 17:42:00.423 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:42:00.423 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:42:00.428 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-13 17:42:00.428 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-13 17:42:00.603 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor -Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-13 17:42:01.317 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2019-04-13 17:42:01.353 [main] INFO  com.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2019-04-13 17:42:01.706 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2019-04-13 17:42:01.706 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2019-04-13 17:42:01.825 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2019-04-13 17:42:01.825 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2019-04-13 17:42:02.080 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-13 17:42:02.377 [main] INFO  com.netflix.discovery.DiscoveryClient -Disable delta property : false
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Application is null : false
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Application version is -1: true
+2019-04-13 17:42:02.378 [main] INFO  com.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2019-04-13 17:42:02.579 [main] INFO  com.netflix.discovery.DiscoveryClient -The response status is 200
+2019-04-13 17:42:02.584 [main] INFO  com.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+2019-04-13 17:42:02.587 [main] INFO  com.netflix.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-13 17:42:02.590 [main] INFO  com.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1555148522589 with initial instances count: 1
+2019-04-13 17:42:02.592 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry -Registering application EUREKA-SERVER-8001 with eureka with status UP
+2019-04-13 17:42:02.592 [main] INFO  com.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1555148522592, current=UP, previous=STARTING]
+2019-04-13 17:42:02.596 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001: registering service...
+2019-04-13 17:42:02.665 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/producer-8001 - registration status: 204
+2019-04-13 17:42:02.667 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8001 (http) with context path ''
+2019-04-13 17:42:02.668 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8001
+2019-04-13 17:42:02.670 [main] INFO  c.x.s.s.ServiceProducer8001Application -Started ServiceProducer8001Application in 62.401 seconds (JVM running for 63.961)
+2019-04-13 17:42:52.224 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:42:53.262 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:42:53.366 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$900c4319] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:42:53.387 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac264616] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:42:53.717 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:42:53.746 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:42:53.746 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:42:53.754 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:42:53.754 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:42:53.754 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:42:53.754 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:42:54.814 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:42:54.984 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:42:54.985 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2741 ms
+2019-04-13 17:44:28.992 [main] INFO  c.x.s.s.ServiceProducer8001Application -The following profiles are active: dev
+2019-04-13 17:44:30.135 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:44:30.232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76c65b0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:44:30.249 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$92e05e09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:44:30.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:44:30.578 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:44:30.578 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:44:30.586 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:44:30.586 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:44:30.586 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:44:30.587 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:44:31.662 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:44:31.829 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:44:31.829 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2826 ms
+2019-04-13 17:45:14.118 [main] INFO  c.x.s.s.ServiceProducer8001Application -The following profiles are active: dev
+2019-04-13 17:45:14.817 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=391a282c-90b0-3c55-bdbb-8077ef175f28
+2019-04-13 17:45:14.898 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34a81cba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:45:14.913 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$50c21fb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-13 17:45:15.245 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-13 17:45:15.266 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-13 17:45:15.266 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-13 17:45:15.272 [main] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-04-13 17:45:15.273 [main] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-13 17:45:15.273 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-13 17:45:15.273 [main] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-13 17:45:16.340 [main] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-13 17:45:16.538 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-13 17:45:16.538 [main] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 2409 ms
+2019-04-13 17:51:47.620 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:51:48.251 [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+java.lang.IllegalArgumentException: No ConfigurationProperties annotation found on  'com.alibaba.druid.pool.DruidDataSource'.
+	at org.springframework.util.Assert.notNull(Assert.java:215)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.assertHasAnnotation(EnableConfigurationPropertiesImportSelector.java:126)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(EnableConfigurationPropertiesImportSelector.java:119)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.register(EnableConfigurationPropertiesImportSelector.java:92)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.lambda$registerBeanDefinitions$0(EnableConfigurationPropertiesImportSelector.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesImportSelector.java:70)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.xuming.springcloud.serviceproducer8001.ServiceProducer8001Application.main(ServiceProducer8001Application.java:12)
+2019-04-13 17:57:00.770 [main] INFO  c.x.s.s.ServiceProducer8001Application -No active profile set, falling back to default profiles: default
+2019-04-13 17:57:01.604 [main] ERROR org.springframework.boot.SpringApplication -Application run failed
+java.lang.IllegalArgumentException: No ConfigurationProperties annotation found on  'com.alibaba.druid.pool.DruidDataSource'.
+	at org.springframework.util.Assert.notNull(Assert.java:215)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.assertHasAnnotation(EnableConfigurationPropertiesImportSelector.java:126)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.registerBeanDefinition(EnableConfigurationPropertiesImportSelector.java:119)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.register(EnableConfigurationPropertiesImportSelector.java:92)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.lambda$registerBeanDefinitions$0(EnableConfigurationPropertiesImportSelector.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar.registerBeanDefinitions(EnableConfigurationPropertiesImportSelector.java:70)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:364)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:363)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:327)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:232)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:705)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.xuming.springcloud.serviceproducer8001.ServiceProducer8001Application.main(ServiceProducer8001Application.java:12)

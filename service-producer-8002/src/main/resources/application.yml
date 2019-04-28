@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server-8002
+  profiles:
+    active:
+
+server:
+  port: 8002
+
+## eureka 服务提供者
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-register-7001:7001/eureka/
+  instance:
+    prefer-ip-address: true
+#  instance-id: producer-8002

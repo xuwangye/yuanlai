@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: eureka-client-api
+  profiles:
+    active: dev
+
+server:
+  port: 9009
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: false #禁止 注册
+    registry-fetch-interval-seconds: 30 #服务缓存清单刷新时间
+    serviceUrl:
+      defaultZone: http://eureka-register-7001:7001/eureka/

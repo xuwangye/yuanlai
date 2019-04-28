@@ -1,0 +1,97 @@
+2019-04-22 17:56:01.419 [main] INFO  c.x.s.s.ServiceProducer8001Application -The following profiles are active: dev
+2019-04-22 17:56:01.429 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5baaae4c: startup date [Mon Apr 22 17:56:01 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d1ef78d
+2019-04-22 17:56:02.275 [main] INFO  o.springframework.cloud.context.scope.GenericScope -BeanFactory id=57211784-66bf-3d6e-9f61-521dc06ba4f7
+2019-04-22 17:56:02.294 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-22 17:56:02.428 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d173ccce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:56:02.462 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker -Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ed8dcfcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-22 17:56:03.106 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat initialized with port(s): 8001 (http)
+2019-04-22 17:56:03.139 [main] INFO  org.apache.catalina.core.StandardService -Starting service [Tomcat]
+2019-04-22 17:56:03.139 [main] INFO  org.apache.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.37
+2019-04-22 17:56:03.161 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-04-22 17:56:03.162 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-04-22 17:56:03.162 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-04-22 17:56:03.162 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-04-22 17:56:04.251 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener -OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-04-22 17:56:04.454 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2019-04-22 17:56:04.455 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 3026 ms
+2019-04-22 17:56:04.636 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -Servlet dispatcherServlet mapped to [/]
+2019-04-22 17:56:04.638 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean -Servlet statViewServlet mapped to [/druid/*]
+2019-04-22 17:56:04.642 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-22 17:56:04.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-22 17:56:04.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-22 17:56:04.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-22 17:56:04.643 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-04-22 17:56:05.076 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-22 17:56:05.076 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-22 17:56:05.081 [main] WARN  com.netflix.config.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2019-04-22 17:56:05.081 [main] INFO  com.netflix.config.sources.URLConfigurationSource -To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-22 17:56:05.190 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-22 17:56:05.424 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5baaae4c: startup date [Mon Apr 22 17:56:01 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6d1ef78d
+2019-04-22 17:56:05.479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/producer8001/queryUserList]}" onto public java.util.List<com.xuming.springcloud.yuanlaientity.entity.User> com.xuming.springcloud.serviceproducer8001.controller.EurekaClientController.queryServiceInfo()
+2019-04-22 17:56:05.480 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/daotest/findlist]}" onto public java.util.List<com.xuming.springcloud.yuanlaientity.entity.User> com.xuming.springcloud.yuanlaidao.controller.Daocontroller.TestDao()
+2019-04-22 17:56:05.483 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-22 17:56:05.484 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-22 17:56:05.514 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-22 17:56:05.514 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-22 17:56:07.350 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2019-04-22 17:56:07.351 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'datasource' has been autodetected for JMX exposure
+2019-04-22 17:56:07.351 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-04-22 17:56:07.351 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'log4j2Filter' has been autodetected for JMX exposure
+2019-04-22 17:56:07.352 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'wallConfig' has been autodetected for JMX exposure
+2019-04-22 17:56:07.352 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'wallFilter' has been autodetected for JMX exposure
+2019-04-22 17:56:07.360 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-22 17:56:07.361 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-22 17:56:07.362 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-22 17:56:07.364 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'log4j2Filter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=log4j2Filter,type=Log4j2Filter]
+2019-04-22 17:56:07.366 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-22 17:56:07.376 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'datasource': registering with JMX server as MBean [com.alibaba.druid.pool:name=datasource,type=DruidDataSource]
+2019-04-22 17:56:07.378 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-22 17:56:07.390 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'wallConfig': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallConfig,type=WallConfig]
+2019-04-22 17:56:07.392 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5baaae4c,type=ConfigurationPropertiesRebinder]
+2019-04-22 17:56:07.397 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'wallFilter': registering with JMX server as MBean [com.alibaba.druid.wall:name=wallFilter,type=WallFilter]
+2019-04-22 17:56:07.398 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-04-22 17:56:07.402 [main] INFO  o.s.context.support.DefaultLifecycleProcessor -Starting beans in phase 0
+2019-04-22 17:56:07.417 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory -Setting initial instance status as: STARTING
+2019-04-22 17:56:07.451 [main] INFO  com.netflix.discovery.DiscoveryClient -Initializing Eureka in region us-east-1
+2019-04-22 17:56:08.070 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON encoding codec LegacyJacksonJson
+2019-04-22 17:56:08.070 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using JSON decoding codec LegacyJacksonJson
+2019-04-22 17:56:08.191 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML encoding codec XStreamXml
+2019-04-22 17:56:08.191 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider -Using XML decoding codec XStreamXml
+2019-04-22 17:56:08.451 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 17:56:08.771 [main] INFO  com.netflix.discovery.DiscoveryClient -Disable delta property : false
+2019-04-22 17:56:08.771 [main] INFO  com.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2019-04-22 17:56:08.772 [main] INFO  com.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2019-04-22 17:56:08.772 [main] INFO  com.netflix.discovery.DiscoveryClient -Application is null : false
+2019-04-22 17:56:08.772 [main] INFO  com.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2019-04-22 17:56:08.772 [main] INFO  com.netflix.discovery.DiscoveryClient -Application version is -1: true
+2019-04-22 17:56:08.772 [main] INFO  com.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2019-04-22 17:56:09.516 [main] INFO  com.netflix.discovery.DiscoveryClient -The response status is 200
+2019-04-22 17:56:09.518 [main] INFO  com.netflix.discovery.DiscoveryClient -Starting heartbeat executor: renew interval is: 30
+2019-04-22 17:56:09.520 [main] INFO  com.netflix.discovery.InstanceInfoReplicator -InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-04-22 17:56:09.524 [main] INFO  com.netflix.discovery.DiscoveryClient -Discovery Client initialized at timestamp 1555926969523 with initial instances count: 0
+2019-04-22 17:56:09.529 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry -Registering application EUREKA-SERVER-8001 with eureka with status UP
+2019-04-22 17:56:09.530 [main] INFO  com.netflix.discovery.DiscoveryClient -Saw local status change event StatusChangeEvent [timestamp=1555926969530, current=UP, previous=STARTING]
+2019-04-22 17:56:09.531 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/DESKTOP-9MU2O1H:eureka-server-8001:8001: registering service...
+2019-04-22 17:56:09.978 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient -DiscoveryClient_EUREKA-SERVER-8001/DESKTOP-9MU2O1H:eureka-server-8001:8001 - registration status: 204
+2019-04-22 17:56:10.058 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer -Tomcat started on port(s): 8001 (http) with context path ''
+2019-04-22 17:56:10.059 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration -Updating port to 8001
+2019-04-22 17:56:10.062 [main] INFO  c.x.s.s.ServiceProducer8001Application -Started ServiceProducer8001Application in 13.603 seconds (JVM running for 15.266)
+2019-04-22 17:56:39.518 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Disable delta property : false
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Single vip registry refresh property : null
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Force full registry fetch : false
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Application is null : false
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Registered Applications size is zero : true
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Application version is -1: false
+2019-04-22 17:56:39.519 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -Getting all instance registry info from the eureka server
+2019-04-22 17:56:39.605 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient -The response status is 200
+2019-04-22 18:01:08.776 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:06:08.793 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:11:08.804 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:16:08.808 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:21:08.811 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:26:08.813 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:31:08.817 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:36:08.818 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:41:08.820 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:46:08.822 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration
+2019-04-22 18:51:08.829 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver -Resolving eureka endpoints via configuration

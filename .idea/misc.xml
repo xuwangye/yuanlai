@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/service-register-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/service-register-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/service-register-7003/pom.xml" />
+        <option value="$PROJECT_DIR$/service-producer-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/service-producer-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/service-consumer-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/yuanlai-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/yuanlai-api/pom.xml" />
+        <option value="$PROJECT_DIR$/yuanlai-entity/pom.xml" />
+        <option value="$PROJECT_DIR$/yuanlai-getway-9009/pom.xml" />
+        <option value="$PROJECT_DIR$/yuanlai-springcloud-config-3344/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

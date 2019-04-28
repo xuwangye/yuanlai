@@ -1,0 +1,39 @@
+spring:
+#  main:
+#    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+  application:
+    name: yuanlai-getway-9009 #这个竟然是服务名，消费端通过 http://EUREKA-SERVER-8001  进行方法
+
+server:
+  port: 9009
+
+## eureka 服务提供者
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-register-7001:7001/eureka/
+  instance:
+    prefer-ip-address: true
+#    instance-id: getway-9009.com #那这个是什么
+
+logging:
+  config: classpath:config/logback-acfo.xml
+
+ribbon:
+  ReadTimeout: 1000 #请求处理时间。
+  ConnectTimeout: 1000 #请求连接时间。
+  MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false  #是否所有操作都重试,如果post，put请求也重试，可能存在问题。false只重试get方法。
+
+#网关配置
+zuul:
+  routes:
+    xuming:
+      serviceId: eureka-server-8001
+      path: /myserver/** #将eureka-server-8001隐藏，暴露myserver
+#  ignored-services: eureka-server-8001 #禁止原路径访问
+  ignored-services: "*" #禁止原路径访问
+  prefix: /myzuul #配置的统一访问前缀

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-consumer-9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-producer-8001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-producer-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-register-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-register-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-register-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuanlai-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuanlai-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuanlai-entity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuanlai-getway-9009" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yuanlai-springcloud-config-3344" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-server-7001
+
+server:
+  port: 7001
+
+## eureka 注册中心
+eureka:
+  instance:
+    hostname: eureka-register-7001
+  client:
+    register-with-eureka: false #禁止 自己作为客户端来尝试注册它自己
+    fetch-registry: false #表示表示是否从EurekaServer获取注册信息
+    serviceUrl:
+#      defaultZone: http://eureka-register-7002:7002/eureka/
+      defaultZone: http://eureka-register-7001:7001/eureka/

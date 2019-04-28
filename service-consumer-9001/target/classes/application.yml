@@ -1,0 +1,101 @@
+spring:
+  application:
+    name: eureka-client-9001
+  profiles:
+    active: dev
+
+server:
+  port: 9001
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: false #禁止 注册
+    registry-fetch-interval-seconds: 30 #服务缓存清单刷新时间
+    serviceUrl:
+      defaultZone: http://eureka-register-7001:7001/eureka/
+
+logging:
+  config: classpath:config/logback-acfo.xml
+
+file:
+  path: ./ding/
+
+feign:
+  hystrix:
+    enabled: true
+
+#=============== 监控与管理  =======================
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  # 使用Hystrix Metrics Stream必备
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream
+
+# hystrix 默认超时 1秒
+hystrix:
+  command:
+    default: #全局配置
+      circuitBreaker:
+        requestVolumeThreshold: 20  #10秒内失败数达到20次 开启断路器
+        sleepWindowInMilliseconds: 10000 #断路10秒后开始恢复
+        errorThresholdPercentage: 50% #出错百分比阈值，当达到此阈值后，开始短路。默认50%
+      execution:
+        timeout:
+          enabled: true #是否启用命令超时，默认为true
+        isolation:
+          strategy: SEMAPHORE # 修改默认策略为信号量隔离，默认是线程
+          thread:
+            timeoutInMillisecods: 9000 #命令执行超时时间，单位为毫秒，命令执行超时将会执行fallback，默认是1000
+            interruptOnTimeout: true #超时是否中断Hystrix.run方法的执行，默认值：true
+      fallback:
+        isolation:
+          semaphore:
+            maxConcurrentRequests: 50 #如果并发数达到该设置值，请求会被拒绝和抛出异常并且fallback不会被调用。
+    UserService#findUserList():
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          strategy: THREAD #修改隔离策略，默认线程池
+          thread:
+            timeoutInMilliseconds: 1800000
+  threadpool:
+    default:
+      coreSize: 10
+    EUREKA-SERVER-8001:
+      coreSize: 6 #为EUREKA-SERVER-8001 这个线程组设置最大核心线程为6
+
+
+
+ribbon:
+  ReadTimeout: 1800000 #请求处理时间。
+  ConnectTimeout: 1000 #请求连接时间。
+  MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false  #是否所有操作都重试
+
+##ribbon的超时时间
+#EUREKA-SERVER-8001:
+#  ribbon:
+#    ReadTimeout: 1000 #请求处理时间。    #默认5秒
+#    ConnectTimeout: 1000 #请求连接时间。   #默认2秒
+#    MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+#    MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+#    OkToRetryOnAllOperations: false  #是否所有操作都重试
+
+##ribbon的超时时间
+#EUREKA-SERVER-8002:
+#  ribbon:
+#    ReadTimeout: 7000 #请求处理时间。    #默认5秒
+#    ConnectTimeout: 1000 #请求连接时间。   #默认2秒
+#    MaxAutoRetries: 1 #同一台实例最大重试次数,不包括首次调用
+#    MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+#    OkToRetryOnAllOperations: false  #是否所有操作都重试
+

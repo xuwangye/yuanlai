@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/service-consumer-9001/service-consumer-9001.iml" filepath="$PROJECT_DIR$/service-consumer-9001/service-consumer-9001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-producer-8001/service-producer-8001.iml" filepath="$PROJECT_DIR$/service-producer-8001/service-producer-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-producer-8002/service-producer-8002.iml" filepath="$PROJECT_DIR$/service-producer-8002/service-producer-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-register-7001/service-register-7001.iml" filepath="$PROJECT_DIR$/service-register-7001/service-register-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-register-7002/service-register-7002.iml" filepath="$PROJECT_DIR$/service-register-7002/service-register-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-register-7003/service-register-7003.iml" filepath="$PROJECT_DIR$/service-register-7003/service-register-7003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai.iml" filepath="$PROJECT_DIR$/yuanlai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai-api/yuanlai-api.iml" filepath="$PROJECT_DIR$/yuanlai-api/yuanlai-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai-dao/yuanlai-dao.iml" filepath="$PROJECT_DIR$/yuanlai-dao/yuanlai-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai-entity/yuanlai-entity.iml" filepath="$PROJECT_DIR$/yuanlai-entity/yuanlai-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai-getway-9009/yuanlai-getway-9009.iml" filepath="$PROJECT_DIR$/yuanlai-getway-9009/yuanlai-getway-9009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuanlai-springcloud-config-3344/yuanlai-springcloud-config-3344.iml" filepath="$PROJECT_DIR$/yuanlai-springcloud-config-3344/yuanlai-springcloud-config-3344.iml" />
+    </modules>
+  </component>
+</project>

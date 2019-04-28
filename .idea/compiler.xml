@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-consumer-9001" />
+        <module name="service-producer-8001" />
+        <module name="service-producer-8002" />
+        <module name="service-register-7001" />
+        <module name="service-register-7002" />
+        <module name="service-register-7003" />
+        <module name="yuanlai-api" />
+        <module name="yuanlai-dao" />
+        <module name="yuanlai-entity" />
+        <module name="yuanlai-getway-9009" />
+        <module name="yuanlai-springcloud-config-3344" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="service-consumer-9001" target="1.8" />
+      <module name="service-getway-9009" target="1.8" />
+      <module name="service-producer-8001" target="1.8" />
+      <module name="service-producer-8002" target="1.8" />
+      <module name="service-register-7001" target="1.8" />
+      <module name="service-register-7002" target="1.8" />
+      <module name="service-register-7003" target="1.8" />
+      <module name="yuanlai" target="1.8" />
+      <module name="yuanlai-api" target="1.8" />
+      <module name="yuanlai-dao" target="1.8" />
+      <module name="yuanlai-entity" target="1.8" />
+      <module name="yuanlai-getway-9009" target="1.8" />
+      <module name="yuanlai-springcloud-config-3344" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
